@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.todo-app{
+    height: 100vh;
+    width: auto;
+    background-color: rgb(21, 116, 116);
+}
+.outer-box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+}

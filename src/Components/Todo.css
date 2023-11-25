@@ -1,17 +1,56 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.todo-app{
+body{
     height: 100vh;
-    width: auto;
-    background-color: rgb(21, 116, 116);
+    background-color: rgb(11, 73, 73);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .outer-box{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+    height: 150px;
+    width: 450px;
+    background-color: #fff;
     border-radius: 15px;
-    margin: auto;
-    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.heading{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.paragraph{
+    font-family: "Poppins",sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.input-box{
+    margin-top: 2px;
+    height: 50px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+input{
+    height: 2rem;
+    width: 16rem;
+    padding: 5px;
+    height: 40px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 4px;
+    outline: none;
 }

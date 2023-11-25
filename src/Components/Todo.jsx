@@ -13,7 +13,7 @@ function Todo() {
                     {/* ---------Input Box -------- */}
                     <div className="input-box">
                         <input type="text" placeholder='Add item..' />
-                        <button>Add</button>
+                        <i className='fas fa-plus'></i>
                     </div>
                 </div>
             </div>

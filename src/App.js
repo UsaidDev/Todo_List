@@ -1,11 +1,11 @@
 import React from 'react'
-import Todo from './Components/Todo'
+import Header from './Components/Header/Header'
 function App() {
   return (
     <div>
-      <Todo />
+      <Header />
     </div>
   )
 }
 
-export default App;
+export default App

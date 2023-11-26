@@ -45,31 +45,3 @@ body{
     font-size: 30px;
     font-weight: 500;
 }
-.input-box{
-    margin-top: 2px;
-    height: 50px;
-    width: 300px;
-    background-color: #fff;
-    border-radius: 10px;
-}
-input{
-    height: 2rem;
-    width: 16rem;
-    padding: 5px;
-    height: 40px;
-    border: none;
-    margin-top: 5px;
-    margin-left: 4px;
-    outline: none;
-}
-input::placeholder{
-    font-family: "Poppins",sans-serif;
-}
-.input-box i{
-    color: gray;
-    font-weight: 800;
-    font-size: larger;
-    cursor: pointer;
-    font-weight: 900;
-    margin-left: 10px;
-}

@@ -1,16 +1,19 @@
 import React from 'react'
 import './Listtask.css'
 
-function Listtask({task}) {
+function Listtask({ Array }) {
     return (
-        <div>
-            {task.map((item) => (
+        <>
+            {Array.map((e) => ((
                 <div className="input-box">
-                    <input type="text" placeholder='Add item..' />
-                    <i className='fas fa-times'></i>
+                <div className="titles">
+                  <h5>{e.title}</h5>
+                  <i className="fas fa-times"></i>
                 </div>
-            ))}
-        </div>
+                
+              </div>
+            )))}
+        </>
     )
 }
 

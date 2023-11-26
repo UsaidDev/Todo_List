@@ -1,5 +1,5 @@
 .input-box{
-    margin-top: 50px;
+    margin-top: 30px;
     height: 50px;
     width: 300px;
     background-color: #fff;
@@ -11,24 +11,27 @@
         margin-left: 35px;
     }
 }
-input{
-    height: 2rem;
-    width: 16rem;
-    padding: 5px;
-    height: 40px;
-    border: none;
-    margin-top: 5px;
-    margin-left: 4px;
-    outline: none;
+
+.titles {
+  display: flex;
+  justify-content: start;
+  position: relative;
 }
-input::placeholder{
+
+.titles h5 {
+    margin-top: 10px;
+    margin-left: 10px;
     font-family: "Poppins",sans-serif;
 }
-.input-box i{
+
+.titles .fa-times {
+    display: flex;
     color: gray;
     font-weight: 800;
     font-size: larger;
     cursor: pointer;
     font-weight: 900;
-    margin-left: 10px;
+    position: fixed;
+    right: 9.6rem;
+    margin-top: 10px;
 }
